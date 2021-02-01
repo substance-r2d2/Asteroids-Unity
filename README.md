@@ -1,5 +1,7 @@
 # Asteroids-Unity
 
+Made using Unity 2019.4.13f1
+
 I wanted to keep the architecture simple.
 The two main things that looked interesting to me were the 'hyperspace' effect where the object warps around the screen to the other side and pooling of objects.
 I relied on renderer visibility to detect when a sprite goes out of screen and then also added a additional world position to viewport position check as the renderer is set to not visible when it is spawned.
